@@ -3,7 +3,7 @@ layout: page
 permalink: /
 ---
 
-####_My name is Devin Young and I am a Software Engineer at TopGolf in Dallas/Fort Worth. I hack on Ruby, Node.js, and iOS. I'm a hardcore DevOps architect and soon-to-be author._
+###**My name is Devin Young and I am a Software Engineer at TopGolf in Dallas/Fort Worth. I hack on Ruby, Node.js, and iOS. I'm a hardcore DevOps architect and soon-to-be author.**
 
 I have contributed to multiple open source projects and even written a few myself. Interested? Follow me [on Github](https://github.com/imdevin567) or [read my resume](/resume).
 
