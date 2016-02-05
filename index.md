@@ -3,7 +3,7 @@ layout: page
 permalink: /
 ---
 
-###**My name is Devin Young and I am a Senior Software Engineer at TopGolf, as well as a freelance iOS developer in Dallas/Fort Worth. I hack on Swift, Node.js, Ruby, and a little bit of Haskell.**
+### **My name is Devin Young and I am a Senior Software Engineer at TopGolf, as well as a freelance iOS developer in Dallas/Fort Worth. I hack on Swift, Node.js, Ruby, and a little bit of Haskell.**
 
 I have contributed to multiple open source projects and even written a few myself. Interested? Follow me [on Github](https://github.com/imdevin567) or [read my resume](/resume).
 

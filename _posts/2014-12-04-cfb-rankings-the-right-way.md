@@ -16,7 +16,7 @@ As we near the end of the 2014 college football season, it's becoming incredibly
 
 Naturally as a sports fanatic and a guy that knows a thing or two about programming, I sought to find a fix to this madness. I first came up with a basic system that would calculate the best teams in the country. The system has only two criteria for the ratings: win/loss quality and strength of schedule. **EDIT: The formula was recently modified to iterate through the rankings one time to give a better indicator of win/loss quality.**
 
-##Win/Loss Quality
+## Win/Loss Quality
 - The base value of a home win is 1 and the base value of a road loss is -1.
 - The point differential of the game ***up to 28 points*** is added to a win and subtracted from a loss, with the value of each point being 0.01.
 - A road win is awarded an additional touchdown (0.07) and a home loss is penalized by an additional touchdown (0.07).
@@ -47,13 +47,13 @@ A few notes on win/loss quality:
 - The final win/loss quality is the average of **all** win/loss qualities for the team normalized on a scale of 0 to 1. This ensures consistent play throughout a season in order to be ranked highly.
 - Win/loss quality is **95%** of the final rating. This is mainly because it inheritly takes into account strength of opponent.
 
-##Strength of Schedule
+## Strength of Schedule
 A team's strength of schedule is essentially the **average win/loss quality of their opponents**. This accounts for a small portion of the final ranking (5%), mainly to use as a tiebreaker between teams with similar win/loss qualities. After the iteration, strength of schedule counts for an additional 1%. The strength of schedule seen in the rankings is essentially the **average rating of their opponents**.
 
-##Iteration
+## Iteration
 After the calculation of rankings is complete, win/loss qualities are *recalculated* using the final rating vs. the opponents' winning percentage. This gives a slightly more accurate view of win/loss quality. In the final iteration, strength of schedule counts for only 1% of the final rating (totaling roughly 6% of the final rating including the previous round of calculations).
 
-###Alright, enough numbers. Show me the rankings!!!
+### Alright, enough numbers. Show me the rankings!!!
 Ok, ok. Some of these are obvious, some not so much. It was interesting to take a look at these teams after the numbers ran and see what my subjective opinion was.
 
 Ladies and gents, your 2014 College Football Rankings:
@@ -86,14 +86,14 @@ Ladies and gents, your 2014 College Football Rankings:
 | 24       | ***Colorado State***    | 10-2       | 0.734           | 0.449   | ***0.731***      |
 | 25       | ***USC***               | 8-4        | 0.731           | 0.580   | ***0.729***      |
 
-##Some Stats
+## Some Stats
 Here are some interesting stats after running these rankings:
 
 - The SEC benefits greatly from strength of schedule. Ole Miss is ranked much higher here than in the current CFB rankings, primarily due to their very high strength of schedule and wins against two top 10 opponents.
 - Boise State is ranked **significantly** higher here than they are in the current CFB rankings.
 - Baylor is ranked much lower than TCU here than in the current CFB rankings. This is mainly due to quality of loss. Baylor has the more impressive win over TCU, but a worse loss against West Virginia.
 
-##Final Thoughts
+## Final Thoughts
 Obviously this brought to light some of the flaws with the current subjective ranking system. Florida State ranks #2 in this system (#1 last week), only behind Alabama because of win/loss quality.
 
 At the same time, this system also highlights some of the successes of the CFB committee. Many have claimed [Baylor should be ranked ahead of TCU](http://www.nola.com/lsu/index.ssf/2014/12/should_tcu_be_ranked_above_bay.html) due to their same record with Baylor winning the head-to-head matchup. This shows that while TCU has dominated their fairly weak schedule, Baylor has not dominated their even *weaker* schedule. TCU also has a close loss against a good team, whereas Baylor has a worse loss against West Virginia. **EDIT: Baylor is now ranked above TCU in the final CFB rankings because the Big 12 couldn't make up their mind on a conference champion.**
