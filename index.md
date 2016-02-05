@@ -9,14 +9,14 @@ I have contributed to multiple open source projects and even written a few mysel
 
 ----------
 
-##What I Build
+## What I Build
 
-###RopeRacer
+### RopeRacer
 **_The first ever [jump rope speed](http://youtu.be/EczW5GF9aNo) racing app. Built for iOS in Swift with a Node.js backend. Currently in development for Android and Windows Phone._**
 
 <a href="http://roperacer.com">![RopeRacer](https://dl.dropboxusercontent.com/u/281059208/roperacer-website.jpg)</a>
 
-###newrelic-conky
+### newrelic-conky
 **_A conky widget to display live stats from New Relic._**
 
 <a href="https://github.com/imdevin567/newrelic-conky">![New Relic Conky](https://dl.dropboxusercontent.com/u/281059208/newrelic-conky.jpg)</a>
