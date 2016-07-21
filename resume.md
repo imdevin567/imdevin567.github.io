@@ -4,7 +4,7 @@ layout: page
 permalink: /resume/
 ---
 
-###SUMMARY
+### SUMMARY
 
 **Software Engineer with a passion for real-time web and mobile applications**
 
@@ -22,36 +22,36 @@ permalink: /resume/
 
 ----
 
-###ACADEMICS
+### ACADEMICS
 
 - Bachelor of Science in Sports Management - **[The Ohio State University](http://youtu.be/XanuRW23nMw), 2009-2012**
 - Self-taught computer nerd, **2010-present**
 
 ----
 
-###WHAT I KNOW
+### WHAT I KNOW
 
-####Languages I know and enjoy using:
+#### Languages I know and enjoy using:
 Javascript/Node.js, Ruby, Swift/Objective-C (iOS), Java (Android/Google Glass), Shell/Bash
 
-####Languages I know but do not actively seek to use
+#### Languages I know but do not actively seek to use
 PHP, Python, Coldfusion, Java (non-Android)
 
-####Web Frameworks
+#### Web Frameworks
 Rails (Ruby), Express (Node.js), Laravel/CakePHP (PHP)
 
-####Source Control
+#### Source Control
 Git. Seriously, just use Git.
 
-####Operating Systems
+#### Operating Systems
 Any Unix-based system. I primarily use [Arch Linux](https://archlinux.org), [Ubuntu](http://ubuntu.com), and [Mac OS X](http://www.apple.com/osx). Don't ask me about anything [Windows](https://www.facebook.com/pages/Windows-sucks/95421065426). Really, just don't.
 
-####Random tools I like telling people I know
+#### Random tools I like telling people I know
 [Docker](https://docker.com), [Jenkins](http://jenkins-ci.org) (continuous integration), [Vagrant](http://vagrantup.com) (distributed virtual environments)
 
 ----
 
-###WHAT I'VE DONE
+### WHAT I'VE DONE
 
 #### [RopeRacer](http://roperacer.com) - January 2015-Present
 **CEO/Founder**
