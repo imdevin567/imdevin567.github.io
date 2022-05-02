@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Devin Young",
+    "label": "Software Engineer",
+    "image": "https://devinyoungweb-com.s3.amazonaws.com/images/frame.png",
+    "email": "devin@devinyoungweb.com",
+    "phone": "(817) 617-9058",
+    "url": "",
+    "summary": "I am a veteran polyglot software engineer looking for my home for the next 10 years.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Raleigh/Durham",
+      "countryCode": "US",
+      "region": "North Carolina"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "imdevin567",
+        "url": "https://github.com/imdevin567"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "devinyoung",
+        "url": "https://linkedin.com/in/devinyoung"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "devin-young",
+        "url": "https://stackoverflow.com/users/1858610/devin-young"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Keen Decision Systems",
+      "location": "Raleigh, NC",
+      "position": "DevOps Engineer",
+      "url": "https://keends.com",
+      "startDate": "2021-08-01",
+      "endDate": "",
+      "summary": "Keen is a local SaaS startup company focused on marketing-mix modeling. I was hired as the first 100% DevOps Engineer at the company.",
+      "highlights": [
+        "Migrated the company's AWS infrastructure from one to three environments, with 100% infrastructure-as-code coverage.",
+        "Led the effort to the company's first disaster recovery drill, successfully launching the entire platform in another region in less than 15 minutes without data loss.",
+        "Created CLI tool called `keenctl` for developers to handle common day-to-day tasks such as retrieving rolling database credentials."
+      ]
+    },
+    {
+      "name": "OrderMyGear",
+      "location": "Dallas, TX/Remote",
+      "position": "Site Reliability Engineering Lead",
+      "url": "https://ordermygear.com",
+      "startDate": "2020-07-01",
+      "endDate": "2021-08-01",
+      "summary": "A former manager at Topgolf recruited me to lead the SRE team at OrderMyGear.",
+      "highlights": [
+        "Created CLI tool called `omgctl` for developers to handle common day-to-day tasks.",
+        "Developed and maintained custom automation framework to enable developers to deploy microservices to GKE in Google Cloud.",
+        "Wrote code for backend microservices in Go, integrating with Google Cloud services such as GKE, BigQuery, and GCS.",
+        "Imported all Google Cloud resources into Terraform, providing the company with 100% infrastructure-as-code coverage without downtime."
+      ]
+    },
+    {
+      "name": "Drive Shack",
+      "location": "Irving, TX",
+      "position": "Director of Software Engineering",
+      "url": "https://driveshack.com",
+      "startDate": "2019-02-01",
+      "endDate": "2020-04-01",
+      "summary": "A group of us left Topgolf to build Drive Shack from the ground up. I was responsible for hiring the development team and building out the software for the venues. We launched our first venue (Raleigh) in just six months despite everything being brand new code. This position ended due to COVID-19.",
+      "highlights": [
+        "Designed and developed game and UI logic for all Drive Shack venue games using Unity.",
+        "Managed a team of 6 developers spanning frontend, backend, and native Android code.",
+        "Led the user experience for customer interaction with the game tablets and check-in system."
+      ]
+    },
+    {
+      "name": "Topgolf",
+      "location": "Dallas, TX",
+      "position": "DevOps Manager",
+      "url": "https://topgolf.com",
+      "startDate": "2017-03-01",
+      "endDate": "2018-08-01",
+      "summary": "By 2017 Topgolf was ready to hire more DevOps engineers. I managed a small team of 3 engineers that were responsible for developer tools, software deployments, and automating everything.",
+      "highlights": [
+        "Worked cross-functionally across various teams including support, finance, marketing, and operations to improve user experience at over 40 venues worldwide.",
+        "Hosted hackathons and project-days to encourage collaboration and creativity amongst the developers."
+      ]
+    },
+    {
+      "name": "Topgolf",
+      "location":"Dallas, TX",
+      "position": "Software Engineer",
+      "url": "https://topgolf.com",
+      "startDate": "2013-04-01",
+      "endDate": "2017-03-01",
+      "summary": "I was hired as a hybrid Software/DevOps engineer despite having little DevOps experience.",
+      "highlights": [
+        "Migrated the company's source code from SVN to git without downtime.",
+        "Built a custom data-driven sales tax engine in PHP.",
+        "Configured Jenkins to monitor and run automated tasks on development and production servers to improve developer experience."
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "University",
+    "url": "https://osu.edu",
+    "area": "Sports Management",
+    "studyType": "Bachelor",
+    "startDate": "2009-09-01",
+    "endDate": "2012-06-01",
+    "score": "",
+    "courses": []
+  }],
+  "publications": [{
+    "name": "Jenkins Essentials; 1st and 2nd Editions",
+    "publisher": "Packt Publishing",
+    "releaseDate": "2017-06-01",
+    "url": "https://www.packtpub.com/product/jenkins-essentials/9781783553471",
+    "summary": "I was a technical reviewer for the book, providing code samples and screenshots to supplement the author."
+  }],
+  "skills": [
+    {
+      "name": "Go",
+      "level": "Master"
+    },
+    {
+      "name": "Python",
+      "level": "Master"
+    },
+    {
+      "name": "Node.js",
+      "level": "Master"
+    },
+    {
+      "name": "Google Cloud",
+      "level": "Master"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Master"
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [
+    {
+      "name": "Mechanical Keyboards",
+      "keywords": []
+    },
+    {
+      "name": "Cryptocurrency",
+      "keywords": []
+    },
+    {
+      "name": "Rocket League",
+      "keywords": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "terraform-aws-eks",
+      "description": "AWS EKS Terraform Module. Contributed multiple commits to the open source project on Github.",
+      "highlights": [
+        ""
+      ],
+      "keywords": [
+        "terraform",
+        "aws",
+        "kubernetes"
+      ],
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
+      "roles": [
+        "Contributor"
+      ],
+      "type": "library"
+    },
+    {
+      "name": "Jargon",
+      "description": "A proxy tool to translate network traffic to different protocols.",
+      "highlights": [],
+      "keywords": [
+        "go"
+      ],
+      "startDate": "2020-02-01",
+      "endDate": "",
+      "url": "https://github.com/imdevin567/jargon",
+      "roles": [
+        "Creator"
+      ],
+      "type": "library"
+    }
+  ]
+}
